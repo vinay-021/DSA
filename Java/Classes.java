@@ -1,4 +1,6 @@
+
 class Car {
+
     String model = "Hatchback";
     String color = "Black";
     int price = 100000;
@@ -6,7 +8,7 @@ class Car {
 
     Car(String modelName, String colorName) {
         //System.out.println("Inside the Constructor");
-        modelName = modelName;
+        model = modelName;
         color = colorName;
     }
 
@@ -34,6 +36,7 @@ class Car {
 }
 
 public class Classes {
+
     public static void main(String[] args) {
         Car c1 = new Car("Hatchback", "Red");
         Car c2 = new Car("Seden", "Blue");
@@ -41,7 +44,7 @@ public class Classes {
 //        Reading the Properties
         System.out.println(c1.color);
         System.out.println(c1.model);
-       /* System.out.println(c1.color);
+        System.out.println(c1.color);
         System.out.println(c1.model);
         System.out.println(c1.getPrice());
 
@@ -59,6 +62,6 @@ public class Classes {
 
         c2.setPrice(5000);
         System.out.println(c2.getPrice());
-*/
+
     }
 }
