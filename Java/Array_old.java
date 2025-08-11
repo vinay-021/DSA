@@ -1,4 +1,4 @@
-public class Array {
+public class Array_old {
     public static void main(String a[]) {
         int nums[][] = new int[4][3];
         for (int i = 0; i < 4; i++) {
