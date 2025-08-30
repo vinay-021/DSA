@@ -58,8 +58,9 @@ public class Rotate_2D_Array {
             }
             System.out.println();
         }
-
+        sc.close();
     }
+    
 }
 /*
  * // Works excellent but only for square matrices

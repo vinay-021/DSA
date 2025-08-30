@@ -3,30 +3,31 @@ import java.util.Scanner;
 public class Sum_of_Array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x=sc.nextInt();
-        int[] arr=new int[x];
-        int sum=0;
+        int x = sc.nextInt();
+        int[] arr = new int[x];
+        int sum = 0;
         for (int i = 0; i < x; i++) {
-            arr[i]=sc.nextInt();
-            sum+=arr[i];
+            arr[i] = sc.nextInt();
+            sum += arr[i];
         }
         System.out.println(sum);
+        sc.close();
     }
 }
 /*
-    
-    Running Sum of 1D-Array(LeetCode)
-    https://leetcode.com/problems/running-sum-of-1d-array/
-
-    class Solution {
-    public int[] runningSum(int[] nums) {
-        int[] runningSum = new int[nums.length];
-        runningSum[0]=nums[0];
-        for(int i=1;i<nums.length;i++){
-            runningSum[i]=runningSum[i-1]+nums[i];
-        }
-        return runningSum;
-    }
-}
-
+ * 
+ * Running Sum of 1D-Array(LeetCode)
+ * https://leetcode.com/problems/running-sum-of-1d-array/
+ * 
+ * class Solution {
+ * public int[] runningSum(int[] nums) {
+ * int[] runningSum = new int[nums.length];
+ * runningSum[0]=nums[0];
+ * for(int i=1;i<nums.length;i++){
+ * runningSum[i]=runningSum[i-1]+nums[i];
+ * }
+ * return runningSum;
+ * }
+ * }
+ * 
  */

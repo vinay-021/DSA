@@ -15,7 +15,7 @@ public class SelectionSort {
             int minValue = arr[i];
             int minIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j]<minValue) {
+                if (arr[j] < minValue) {
                     minValue = arr[j];
                     minIndex = j;
                 }
@@ -28,6 +28,6 @@ public class SelectionSort {
         for (int val : arr) {
             System.out.print(val + " ");
         }
-
+        sc.close();
     }
 }

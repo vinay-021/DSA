@@ -15,6 +15,6 @@ public class Max_of_Array {
         }
 
         System.out.println(max);
-
+        sc.close();
     }
 }
